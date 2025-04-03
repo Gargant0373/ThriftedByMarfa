@@ -1,0 +1,17 @@
+:root {
+    --background: #000;
+    --primary: #fff;
+    --secondary: #ababab;
+}
+
+body {
+    margin: 0;
+    background-color: var(--background);
+
+    min-height: 100vh;
+
+    font-family: "Sofia", sans-serif;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    color: var(--primary);
+}
